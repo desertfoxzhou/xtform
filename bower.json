@@ -1,11 +1,14 @@
 {
   "name": "xtform",
-  "version": "2.0.0-beta.2",
+  "version": "2.0.0-beta.4",
   "homepage": "https://github.com/refactorthis/xtform",
   "authors": [
     "Brent McKendrick <www.brentmckendrick.com>"
   ],
   "description": "AngularJS form validation extensions",
+  "main": [
+		"dist/xtForm.tpl.js"
+	],
   "keywords": [
     "angularjs",
     "form",
