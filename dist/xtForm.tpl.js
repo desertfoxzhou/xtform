@@ -55,12 +55,12 @@ xtForm.directive('ngModel', ["xtFormConfig", "$rootScope", "$interpolate", "$doc
                         }
                         ngModel.$focused = true;
                         updateErrors();
-                        scope.$apply();
+                        scope.$evalAsync();
                     })
                     .on('blur', function () {
                         ngModel.$focused = false;
                         updateErrors();
-                        scope.$apply();
+                        scope.$evalAsync();
                     });
             }
 
